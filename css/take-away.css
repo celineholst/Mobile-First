@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* CSS variabler */
+:root {
+    --main-bg-color: white;
+    --header-footer: #8db6c0;
+    --main-text-color: black;
+    --headline: 'Bebas Neue', cursive; 
+    --main-text: 'Open Sans', sans-serif;
+    --orange: #f18346;
+}
+
+/* Overskrift */
+.take-away {
+    width: 85%;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.intro {
+    font-family: var(--main-text);
+    font-size: 16px;
+    line-height: 1.2;
+    padding-left: 20px;
+}
+
+/* Kategorier */
+.kategorier img {
+    width: 70px;
+}
+
+.kategorier li {
+    display: inline-block;
+    position: relative;
+    left: 25px;
+}
+
+/* Valgmuligheder */
+.pasta-1 {
+    width: 415px;
+} 
+
+.pasta-1-web {
+    display: none;
+}
+
+h2 {
+    font-family: var(--headline);
+    font-size: 24px;
+    margin-left: 50px;
+    position: relative;
+    top: -130px;
+}
+
+.vege {
+    width: 25px;
+    position: relative;
+    top: -160px;
+    left: 245px;
+}
+
+.indhold {
+    font-family: var(--main-text);
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 90px;
+    position: relative;
+    top: -155px;
+}
+
+.price {
+    font-family: var(--headline);
+    font-size: 20px;
+    margin-top: -140px;
+    margin-left: 50px;
+}
+
+.price-1 {
+    font-family: var(--headline);
+    font-size: 20px;
+    margin-top: -140px;
+    margin-left: 50px;
+}
+
+.btn {
+    padding: 4px 25px;
+    font-family: var(--headline);
+    font-size: 20px;
+    color: white;
+    background: #01173c;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .3s linear;
+    margin-top: 5px;
+    position: relative;
+    left: 185px; 
+    top: -35px;
+}
+
+.btn-1 {
+    padding: 4px 25px;
+    font-family: var(--headline);
+    font-size: 20px;
+    color: white;
+    background: #01173c;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .3s linear;
+    margin-top: 5px;
+    position: relative;
+    left: 185px; 
+    top: -35px;
+}
+
+.pasta-2 {
+    width: 415px;
+}
+
+.pasta-2-web {
+    display: none;
+}
+
+h3 {
+    font-family: var(--headline);
+    font-size: 24px;
+    margin-left: 50px;
+    position: relative;
+    top: -130px;
+}
+
+.vege-2 {
+    width: 25px;
+    position: relative;
+    top: -160px;
+    left: 225px;
+}
+
+.pasta-3 {
+    width: 415px;
+}
+
+.pasta-3-web {
+    display: none;
+}
+
+.indhold-1 {
+    font-family: var(--main-text);
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 90px;
+    position: relative;
+    top: -125px;
+}
+
+.price-2 {
+    font-family: var(--headline);
+    font-size: 20px;
+    margin-top: -110px;
+    margin-left: 50px;
+}
+
+.btn-2 {
+    padding: 4px 25px;
+    font-family: var(--headline);
+    font-size: 20px;
+    color: white;
+    background: #01173c;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .3s linear;
+    margin-top: 5px;
+    position: relative;
+    left: 185px; 
+    top: -35px;
+}
+
+/* Indkøbskurv */
+.shop {
+    width: 85px;   
+}
+
+.sticky {
+   position: fixed;
+    top: 750px;
+    left: 300px;
+}
+
+/* Mediarules tablet */
+@media only screen and (min-width: 768px) {
+/* Overskrift */
+    .take-away {
+    width: 60%;
+    padding-left: 25px;
+    }
+
+    .intro {
+    font-size: 22px;
+    line-height: 1.2;
+    padding-left: 35px;
+    }
+    
+/* Kategorier */
+    .kategorier img {
+    width: 140px;
+    }
+    
+    .kategorier li {
+    left: 60px;
+    }
+    
+/* Valgmuligheder */
+    .pasta-1 {
+    width: 810px;
+    }
+    
+    h2 {
+    font-size: 40px;
+    margin-left: 100px;
+    top: -250px;
+    }
+
+    .vege {
+    width: 40px;
+    top: -305px;
+    left: 420px;
+    }
+    
+    .indhold {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 180px;
+    top: -275px;
+    line-height: 1.5;
+    }
+
+    .price {
+    font-size: 32px;
+    margin-top: -240px;
+    margin-left: 100px;
+    }
+    
+    .btn {
+    padding: 10px 40px;
+    font-size: 28px;
+    left: 350px; 
+    top: -55px;
+    }
+    
+    .valg-2 {
+    position: relative;
+    top: 40px;
+    }
+    
+    .pasta-2 {
+    width: 810px;
+    margin-top: 30px;
+    }
+    
+    .vege-2 {
+    width: 40px;
+    top: -305px;
+    left: 385px;
+    }
+    
+    .price-1 {
+    font-size: 32px;
+    margin-left: 100px;
+    position: relative;
+    top: -70px;
+    }
+    
+    .btn-1 {
+    padding: 10px 40px;
+    font-size: 28px;
+    left: 355px; 
+    top: -125px;
+    }
+    
+    .valg-3 {
+    position: relative;
+    top: 40px;
+    }
+    
+    .valg-4 {
+    position: relative;
+    top: 20px;
+    }
+    
+    .pasta-3 {
+    width: 810px;
+    position: relative;
+    top: -20px;
+    }
+    
+    h3 {
+    font-size: 40px;
+    margin-left: 100px;
+    top: -270px;
+    }
+    
+    .indhold-1 {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 200px;
+    top: -260px;
+    line-height: 1.5;
+    }
+    
+    .price-2 {
+    font-size: 32px;
+    margin-left: 100px;
+    position: relative;
+    top: -110px;
+    }
+    
+    .btn-2 {
+    padding: 10px 40px;
+    font-size: 28px;
+    left: 355px; 
+    top: -155px;
+    }
+    
+/* Indkøbskurv */
+    .shop {
+    width: 130px;   
+    }
+
+    .sticky {
+    top: 900px;
+    left: 630px;
+    }
+}
+
+/* @mediarules desktop */
+@media only screen and (min-width: 992px) {
+/* Overskrift */
+    .take-away {
+    width: 45%;
+    padding-left: 370px;
+    padding-top: 120px;
+    }
+
+    .intro {
+    font-size: 26px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+
+/* Kategorier */
+    .kategorier img {
+    width: 140px;
+    margin-left: 20px; 
+    position: relative;
+    top: 80px;
+    }
+    
+    .kategorier li {
+    display:table-row;
+    }
+    
+/* Valgmuligheder */
+    .valgmuligheder {
+        margin-top: -700px
+    }
+    
+    .pasta-1 {
+        display: none;
+    }
+    
+    .pasta-1-web {
+        display: inline-block;
+        width: 850px;
+        margin-left: 250px;
+    }
+    
+    .sec-1 {
+        margin-left: 180px;
+    }
+    
+    .indhold {
+        margin-right: 500px;
+    }
+    
+    .pasta-2 {
+        display: none;
+    }
+    
+    .pasta-2-web {
+        display: inline-block;
+        width: 850px;
+        margin-left: 250px;
+    }
+    
+    .sec-2 {
+        margin-left: 180px;
+    }
+    
+    .pasta-3 {
+        display: none;
+    }
+    
+    .pasta-3-web {
+        display: inline-block;
+        width: 850px;
+        margin-left: 250px;
+    }
+    
+    .sec-3 {
+        margin-left: 180px;
+    }
+    
+    .sec-4 {
+        margin-left: 180px;
+    }
+    
+    .indhold-1 {
+        margin-right: 500px;
+    }
+    
+    .price-2 {
+    top: -85px;
+    }
+    
+    .btn-2 {
+    top: -140px;
+    }
+    
+/* Indkøbskurv */
+    .shop {
+    width: 130px;   
+    }
+
+    .sticky {
+    top: 800px;
+    left: 1120px;
+    }
+}

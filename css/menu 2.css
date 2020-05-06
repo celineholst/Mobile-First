@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* CSS variabler */
+:root {
+    --main-bg-color: white;
+    --header-footer: #8db6c0;
+    --main-text-color: black;
+    --headline: 'Bebas Neue', cursive; 
+    --main-text: 'Open Sans', sans-serif;
+    --orange: #f18346;
+}
+
+/* Overskrift + linje */
+.menukort {
+    width: 85%;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.linje {
+    width: 325px;
+    border-top: 1px solid #afafaf;
+    margin-left: 35px;
+} 
+
+/* Menukort */
+h2 {
+    font-family: var(--headline);
+    font-size: 30px;
+    text-align: center;
+}
+
+.linje-2 {
+    width: 95%;
+    border-top: 2px solid #000;
+    margin-left: 25px;
+}
+
+.bold {
+    font-family: var(--main-text);
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 32px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.price {
+    float: right;
+}
+
+.normal {
+    font-family: var(--main-text);
+    font-size: 12px;
+    color: #afafaf;
+    margin-left: 32px;
+    line-height: 1.2;
+}
+
+/* Drikkevarer */
+.grid {
+    margin-left: 32px;
+}
+
+h3 {
+    font-family: var(--headline);
+    font-size: 30px;
+    text-align: center;
+}
+
+.linje-3 {
+    width: 100%;
+    border-top: 2px solid #000;
+    margin-left: 2px;
+}
+
+.headline {
+    font-family: var(--main-text);
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-family: var(--main-text);
+    font-size: 12px;
+    color: #afafaf;
+    line-height: 1.2;
+}
+
+/* 3-retters menu */
+.border {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+}
+
+h4 {
+    font-family: var(--headline);
+    font-size: 26px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.retter {
+    font-family: var(--main-text);
+    text-align: center;
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+/* Book bord */
+.book {
+    font-family: var(--main-text);
+    text-align: center;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+button {
+    background-color: var(--orange);
+    border: none;
+    color: var(--main-text-color);
+    font-family: var(--headline);
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.border-2 {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 35px;
+}
+
+.border-3 {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+}
+
+/* @mediarules tablet */
+@media only screen and (min-width: 768px) {
+/* Overskrift + linje */
+    .menukort {
+        width: 70%;
+        padding-top: 90px;
+        padding-left: 140px;
+    }
+    
+    .linje {
+        width: 550px;
+        border-top: 2px solid #afafaf;
+        margin-left: 115px;
+    }
+    
+/* Menukort */
+    .linje-2 {
+        margin-left: 50px;
+        width: 90%;
+    }
+    
+    .price {
+        margin-right: 20px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    .bold, .normal {
+        margin-left: 50px;
+    }
+    
+    .bold {
+        font-size: 18px;
+    }
+    
+    .normal {
+        font-size: 14px;
+    }
+    
+/* Drikkevarer */
+    .linje-3 {
+        width: 100%;
+    }
+    
+    .wrap-1 {
+        padding: 15px;
+        margin-left: 10px;
+    }
+    
+    .wrap-2 {
+        padding: 15px;
+        margin-left: 10px;
+    }
+    
+    h3 {
+        font-size: 36px;
+    }
+    
+    .headline {
+        font-size: 18px;
+    }
+    
+    .description {
+        font-size: 14px;
+    }
+/* 3-retters menu */
+    h4 {
+        font-size: 34px;
+    }
+    
+    .retter {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    
+/* Book bord */
+    .book {
+        font-size: 20px;
+    }
+    
+    button {
+        padding: 10px 30px;
+        font-size: 30px;
+        margin-left: 280px;
+    }
+}
+
+/* @mediarules desktop */
+@media only screen and (min-width: 992px) {
+    main {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+/* Overskrift + linje */
+    .menukort {
+        width: 55%;
+        padding-top: 130px;
+        padding-left: 280px;
+    }
+    
+    .linje {
+        width: 1000px;
+        border-top: 3px solid #afafaf;
+        margin-left: 90px;
+    }
+    
+/* Menukort */
+    h2 {
+    font-size: 46px;
+    }
+    
+    .linje-2 {
+        width: 94%;
+    }
+    
+    .bold {
+        font-size: 20px;
+    }
+    
+    .normal {
+        font-size: 16px;
+    }
+    
+/* Drikkevarer */
+    .wrap-1 {
+        float: left;
+        width: 40%;
+    }
+    
+    .wrap-2 {
+        float: right;
+        width: 40%;
+        position: relative;
+        top: -20px;
+    }
+    
+    .grid:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    
+    .linje-3 {
+        width: 94%;
+    }
+    
+    h3 {
+        font-size: 46px;
+    }
+    
+    .headline {
+        font-size: 20px;
+    }
+    
+    .description {
+        font-size: 16px;
+    } 
+    
+/* 3-retters menu */
+    .border {
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 20px;
+    } 
+    
+    h4 {
+        font-size: 40px;
+    }
+    
+    .retter {
+        font-size: 20px;
+    }
+    
+/* Book bord */
+    .border-2 {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .border-3 {
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 20px;
+    }
+    
+    .book {
+        font-size: 22px;
+    }
+    
+    button {
+        padding: 15px 35px;
+        font-size: 34px;
+        margin-left: 320px;
+        margin-top: 20px;
+    }
+}

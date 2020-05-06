@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* CSS variabler */
+:root {
+    --main-bg-color: white;
+    --header-footer: #8db6c0;
+    --main-text-color: black;
+    --headline: 'Bebas Neue', cursive; 
+    --main-text: 'Open Sans', sans-serif;
+    --orange: #f18346;
+}
+
+/* Banner */
+.banner {
+    background-image: url(../images/Billede1-kopi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 415px;
+    height: 150px;
+    padding-top: 80px;
+}
+
+.banner-2 {
+    display: none;
+}
+
+/* Om Grappa */
+h2 {
+    font-family: var(--headline);
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 45px;
+}
+
+.om {
+    font-family: var(--main-text);
+    font-size: 14px;
+    margin-left: 45px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Kontaktoplysninger */
+.contact {
+    font-family: var(--main-text);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 45px;
+}
+
+/* Nyhedsbrev */
+.border {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.newsletter {
+    background-image: url(../images/Nyhedsbrev-billede.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 415px;
+    height: 160px;
+}
+
+h3 {
+    font-family: var(--headline);
+    color: var(--main-text-color);
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+    text-shadow: 1px 2px 8px #d9d9d7;
+}
+
+.tilmeld {
+    font-family: var(--main-text);
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 1px 2px 8px #d9d9d7;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.txtb {
+    flex: 1;
+    padding: 10px 20px;
+    font-family: var(--main-text);
+    font-size: 12px;
+    color: #293043;
+    background: white;
+    border: none;
+    font-weight: 500px;
+    outline: none;
+    min-width: 260px;
+}
+
+.btn {
+    padding: 7px 20px;
+    font-family: var(--headline);
+    font-size: 18px;
+    color: white;
+    background: #01173c;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .3s linear;
+    margin-top: 5px;
+}
+
+btn:hover {
+    opacity: .7;
+}
+
+/* Mediarules tablet */
+@media only screen and (min-width: 768px) {
+/* Banner */
+    .banner {
+        width: 810px;
+        height: 250px;
+    }
+    
+/* Om Grappa */
+    h2 {
+        font-size: 36px;
+    }
+    
+    .om {
+        font-size: 18px;
+    }
+
+/* Kontaktoplysninger */
+    .contact {
+        font-size: 20px;
+    }
+
+/* Nyhedsbrev */
+    .border {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    
+    .newsletter {
+        width: 810px;
+    }
+    
+    .btn {
+        margin-top: 0;
+    }
+    
+    .txtb {
+        font-size: 14px;
+    }
+    
+    h3 {
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    
+    .tilmeld {
+        font-size: 18px;
+    }
+}
+
+/* @mediarules desktop */
+@media only screen and (min-width: 992px) {
+    /* Banner */
+    .banner {
+        width: 580px;
+        height: 250px;
+    }
+    
+    .banner-2 {
+        display: inline-block;
+        background-image: url(../images/omos-2);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 580px;
+        height: 350px;
+    }
+    
+    .wrap-1 {
+        float: right;
+        width: 42%;
+        position: relative;
+        top: 60px;
+    }
+    
+    /* Om Grappa */
+    h2 {
+        font-size: 42px;
+    }
+    
+    .om {
+        font-size: 18px;
+        padding: 20px;
+        position: relative;
+        left: -30px;
+    }
+    
+    .wrap-2 {
+        position: relative;
+        top: 120px;
+    }
+    
+/* Kontaktoplysninger */
+    .contact {
+        font-size: 22px;
+    }
+    
+/* Nyhedsbrev */
+    .border {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    
+    .newsletter {
+        width: 1320px;
+        height: 200px;
+        margin-top: 170px;
+    }
+    
+    .txtb {
+        font-size: 18px;
+        height: 31px;
+    }
+    
+    .btn {
+        padding: 10px 35px;
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 40px;
+        line-height: 1.5;
+    }
+    
+    .tilmeld {
+        font-size: 22px;
+    }
+} 
